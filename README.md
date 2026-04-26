@@ -1,24 +1,30 @@
 # Práctica 2: Reconocimiento activo
 
-Implementación de técnicas de descubrimiento de hosts con Scapy y análisis del comportamiento de Nmap en el reconocimiento de puertos.
+En esta práctica se han implementado técnicas de reconocimiento activo en redes utilizando herramientas como Scapy y Nmap. 
+Por un lado, se ha desarrollado una función en Python capaz de generar y enviar paquetes de red (UDP, TCP ACK e ICMP timestamp) para detectar hosts activos. 
+Por otro lado, se ha analizado el comportamiento de Nmap en el escaneo de puertos, observando cómo identifica puertos abiertos y cerrados a partir de las respuestas del sistema.
 
-## Objetivo
-Detectar hosts activos mediante el envío de paquetes de red y analizar el estado de los puertos (abierto, cerrado) a partir de las respuestas del sistema.
+El objetivo principal es comprender cómo funcionan estas técnicas a bajo nivel y cómo se pueden utilizar para obtener información sobre dispositivos y servicios en una red.
 
-## Tecnologías utilizadas
-- Python + Scapy
-- Nmap
-- tcpdump
 
-## Contenido
-- `src/host_discovery.py`: código principal en Python.
-- `src/host_discovery.ipynb`: pruebas realizadas.
-- `doc/report.pdf`: informe final.
-- `doc/images`: capturas y evidencias.
+## Estructura del proyecto
 
-## Ejecución
-```bash
-cd src
-sudo ../.venv/bin/python host_discovery.py
+```text
+P2_Reconocimiento_activo
+├── doc
+│   ├── bibliography.bib
+│   ├── images
+│   ├── report.typ
+│   └── report.pdf
+├── src
+│   ├── host_discovery.py
+│   ├── host_discovery.ipynb
+│   └── pyproject.toml
+├── pyproject.toml
+├── README.md
+└── .gitignore
+```
 
-AUTOR: Itzel Fajardo Umpierrez
+## Autor
+Itzel Fajardo Umpierrez
+Tecnicas De Hacking
