@@ -25,6 +25,8 @@ P2_Reconocimiento_activo
 └── .gitignore
 ```
 
-## Autor
-Itzel Fajardo Umpierrez
-Tecnicas De Hacking
+```md
+- Autor = Itzel Fajardo Umpierrez
+- Grado = Ingenieria De Ciberseguridad
+- Asignatura = Tecnicas De Hacking
+```
